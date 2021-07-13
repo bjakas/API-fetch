@@ -21,7 +21,7 @@ fetch(endpoint) // 1. promise
     var img = document.createElement("img");
     body.appendChild(img);
     img.src = "https://avatars.githubusercontent.com/u/74099367?v=4";
-    img.alt = "<username> profile image";
+    img.alt = `${data.login} profile image`;
 
 
   })
